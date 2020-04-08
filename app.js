@@ -1,24 +1,21 @@
 const onload = () => {
 const $myArray = ['Your code is the driest', 'welcome to nology', 'happy friday'];
 
-//const random = Math.floor(Math.random()*3);
-
-
-
 
     $('button').click(function(){
         const index = Math.floor(Math.random() * 3);
-
-        // console.log(affirmation);
         $('.affirmation').empty().append($myArray[index]);
-        
-
         })
-
-
     }
+    
 $(onload);
 
+
+
+
+
+
+// Another example //
 // 1. make an array of affirmations
 // 2. generate a function for onclick, so that when you click the generate button an affirmation appears 
 // 3. using the array produce random affirmations upon click
